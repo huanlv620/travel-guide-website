@@ -1,0 +1,113 @@
+.diary {
+    margin-top: 150px;
+
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__btn {
+        width: 180px;
+    }
+
+    &__content {
+        display: flex;
+        gap: 30px;
+        margin-top: 70px;
+    }
+
+    &__left {
+        flex-shrink: 0;
+        width: 470px;
+    }
+
+    &__info-wrap {
+        width: 100%;
+        height: 440px;
+        border-radius: 12px;
+    }
+
+    &__info {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    &__title {
+        margin: 20px 0 16px;
+        font-size: 2.2rem;
+        line-height: 127%;
+        color: #191b1d;
+        font-weight: 700;
+    }
+
+    &__desc {
+        margin-bottom: 16px;
+        font-size: 1.6rem;
+        line-height: 175%;
+        color: #4e5358;
+    }
+
+    &__link {
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 175%;
+        text-transform: capitalize;
+        color: #ff5b26;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.diary-item {
+    display: flex;
+    gap: 20px;
+
+    &__wrap-img {
+        flex-shrink: 0;
+        width: 280px;
+        height: 200px;
+        border-radius: 12px;
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        object-fit: contain;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 127%;
+        color: #191b1d;
+    }
+
+    &__desc {
+        margin: 16px 0;
+        font-size: 1.6rem;
+        line-height: 175%;
+        color: #4e5358;
+    }
+
+    &__link {
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 175%;
+        text-transform: capitalize;
+        color: #191b1d;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.diary-item + .diary-item {
+    margin-top: 30px;
+}

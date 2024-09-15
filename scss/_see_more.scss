@@ -1,0 +1,64 @@
+.see-more {
+    margin-top: 150px;
+    background: hsl(46, 54%, 54%);
+    background: #fff9e5;
+
+    &__inner {
+        position: relative;
+        margin: 0 auto;
+        width: 807px;
+
+        &::before,
+        &::after {
+            position: absolute;
+        }
+
+        &::before {
+            left: -225px;
+            top: 87px;
+            content: url("../icons/boat.svg");
+        }
+
+        &::after {
+            right: -120px;
+            top: 0;
+            content: url("../icons/plane.svg");
+        }
+    }
+
+    &__heading {
+        width: 670px;
+        font-weight: 700;
+        font-size: 3.8rem;
+        line-height: 116%;
+        color: #191b1d;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 70px;
+        justify-content: space-between;
+        margin-top: 38px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    &__num {
+        font-family: "Syne";
+        font-weight: 700;
+        font-size: 72px;
+        color: #ff5b26;
+    }
+
+    &__text {
+        margin-top: 4px;
+        font-size: 18px;
+        line-height: 167%;
+        color: #4e5358;
+    }
+}

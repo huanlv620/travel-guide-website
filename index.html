@@ -1,889 +1,742 @@
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Travel Guide Website</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Guide Website</title>
 
-        <!-- Favicon -->
-        <link
-            rel="apple-touch-icon"
-            sizes="76x76"
-            href="./assets/favicon/apple-touch-icon.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="./assets/favicon/favicon-32x32.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="./assets/favicon/favicon-16x16.png"
-        />
-        <link rel="manifest" href="./assets/favicon/site.webmanifest" />
-        <link
-            rel="mask-icon"
-            href="./assets/favicon/safari-pinned-tab.svg"
-            color="#5bbad5"
-        />
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./assets/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
-        <!-- Embed fonts Manrope-->
-        <link rel="stylesheet" href="./assets/fonts/Manrope/stylesheet.css" />
-        <!-- Embed fonts Syne-->
-        <link rel="stylesheet" href="./assets/fonts/Syne/stylesheet.css" />
+    <!-- Embed fonts Manrope-->
+    <link rel="stylesheet" href="./assets/fonts/Manrope/stylesheet.css" />
+    <!-- Embed fonts Syne-->
+    <link rel="stylesheet" href="./assets/fonts/Syne/stylesheet.css" />
 
-        <!-- Style -->
-        <link rel="stylesheet" href="./assets/css/main.css" />
-    </head>
-    <body>
-        <!-- Header -->
-        <header id="header" class="header">
-            <div class="container">
-                <!-- Header top -->
-                <div class="header__top">
-                    <!-- Logo -->
-                    <a href="#!" class="logo">
-                        <img
-                            src="./assets/imgs/logo.png"
-                            alt=""
-                            class="logo__img"
-                        />
-                    </a>
-                    <!-- Nav -->
-                    <nav class="header-nav">
-                        <ul class="header-nav__list">
-                            <li class="header-nav__item">
-                                <a href="#!" class="header-nav__link">
-                                    Destinations
-                                </a>
-                            </li>
-                            <li class="header-nav__item">
-                                <a href="#!" class="header-nav__link">
-                                    About
-                                </a>
-                            </li>
-                            <li class="header-nav__item">
-                                <a href="#!" class="header-nav__link">Blog</a>
-                            </li>
-                            <li class="header-nav__item">
-                                <a href="#!" class="header-nav__link">Page</a>
-                            </li>
-                        </ul>
-                    </nav>
+    <!-- Style -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="header">
+      <div class="container">
+        <!-- Header top -->
+        <div class="header__top">
+          <!-- Logo -->
+          <a href="#!" class="logo">
+            <img src="./assets/imgs/logo.png" alt="" class="logo__img" />
+          </a>
+          <!-- Nav -->
+          <nav class="header-nav">
+            <ul class="header-nav__list">
+              <li class="header-nav__item">
+                <a href="#!" class="header-nav__link"> Destinations </a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#about" class="header-nav__link"> About </a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#blog" class="header-nav__link">Blog</a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#page" class="header-nav__link">Page</a>
+              </li>
+            </ul>
+          </nav>
 
-                    <!-- Actions -->
-                    <div class="header__actions">
-                        <a href="#!" class="header__btn-login">Log In</a>
-                        <a href="#!" class="btn header__btn-signup">Sign Up</a>
-                    </div>
+          <!-- Actions -->
+          <div class="header__actions">
+            <a href="#!" class="header__btn-login">Log In</a>
+            <a href="#!" class="btn header__btn-signup">Sign Up</a>
+          </div>
+        </div>
+
+        <!-- Header inner -->
+        <div class="header__inner">
+          <!-- Header left -->
+          <div class="header__left">
+            <div class="header__content">
+              <h1 class="header__title">Let’s make your best trip ever</h1>
+              <p class="header__desc">
+                Create a fully customized day-by-day itinerary for free. Imagine
+                checking one place for your travel details and getting a heads
+                up as things happen throughout your trip
+              </p>
+              <div class="header__row">
+                <div>
+                  <img
+                    src="./assets/icons/location.svg"
+                    alt=""
+                    class="header__icon"
+                  />
+                  <span class="desc"> Where do you want to go? </span>
                 </div>
-
-                <!-- Header inner -->
-                <div class="header__inner">
-                    <!-- Header left -->
-                    <div class="header__left">
-                        <div class="header__content">
-                            <h1 class="header__title">
-                                Let’s make your best trip ever
-                            </h1>
-                            <p class="header__desc">
-                                Create a fully customized day-by-day itinerary
-                                for free. Imagine checking one place for your
-                                travel details and getting a heads up as things
-                                happen throughout your trip
-                            </p>
-                            <div class="header__row">
-                                <div>
-                                    <img
-                                        src="./assets/icons/location.svg"
-                                        alt=""
-                                        class="header__icon"
-                                    />
-                                    <span class="desc">
-                                        Where do you want to go?
-                                    </span>
-                                </div>
-                                <div>
-                                    <img
-                                        src="./assets/icons/calendar.svg"
-                                        alt=""
-                                        class="header__icon"
-                                    />
-                                    <span> When you are going? </span>
-                                </div>
-                                <button class="btn">Search</button>
-                            </div>
-                        </div>
-                        <div class="header__featured">
-                            <p class="header__featured-heading">
-                                As featured in
-                            </p>
-                            <div class="header__featured-row">
-                                <img
-                                    src="./assets/imgs/featured/img-1.svg"
-                                    alt=""
-                                />
-                                <img
-                                    src="./assets/imgs/featured/img-2.svg"
-                                    alt=""
-                                />
-                                <img
-                                    src="./assets/imgs/featured/img-3.svg"
-                                    alt=""
-                                />
-                                <img
-                                    src="./assets/imgs/featured/img-4.svg"
-                                    alt=""
-                                />
-                                <img
-                                    src="./assets/imgs/featured/img-5.svg"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Header right -->
-                    <div class="header__right">
-                        <figure class="header__right-wrap-img">
-                            <img
-                                src="./assets/imgs/header/img-1.jpg"
-                                alt=""
-                                class="wrap"
-                            />
-                            <img src="./assets/imgs/header/img-2.jpg" alt="" />
-                        </figure>
-                        <img src="./assets/imgs/header/img-3.jpg" alt="" />
-                    </div>
+                <div>
+                  <img
+                    src="./assets/icons/calendar.svg"
+                    alt=""
+                    class="header__icon"
+                  />
+                  <span> When you are going? </span>
                 </div>
+                <button class="btn">Search</button>
+              </div>
             </div>
-        </header>
-        <!-- End Header -->
+            <div class="header__featured">
+              <p class="header__featured-heading">As featured in</p>
+              <div class="header__featured-row">
+                <img src="./assets/imgs/featured/img-1.svg" alt="" />
+                <img src="./assets/imgs/featured/img-2.svg" alt="" />
+                <img src="./assets/imgs/featured/img-3.svg" alt="" />
+                <img src="./assets/imgs/featured/img-4.svg" alt="" />
+                <img src="./assets/imgs/featured/img-5.svg" alt="" />
+              </div>
+            </div>
+          </div>
 
-        <!-- Main -->
-        <main>
-            <!-- How travel -->
-            <section class="how-travel">
-                <div class="container">
-                    <h2 class="how-travel__heading heading">
-                        How we can help you to travel?
-                    </h2>
-                    <div class="how-travel__list">
-                        <article class="how-travel__item">
-                            <img
-                                src="./assets/imgs/how-travel/img-1.svg"
-                                alt=""
-                                class="how-travel__icon"
-                            />
-                            <h2 class="how-travel__title">Destinations</h2>
-                            <p class="how-travel__desc desc line-clamp line-3">
-                                Explore destinations around the world from 110
-                                countries. We are providing the best travel
-                                guide services.
-                            </p>
-                        </article>
+          <!-- Header right -->
+          <div class="header__right">
+            <figure class="header__right-wrap-img">
+              <img src="./assets/imgs/header/img-1.jpg" alt="" class="wrap" />
+              <img src="./assets/imgs/header/img-2.jpg" alt="" />
+            </figure>
+            <img src="./assets/imgs/header/img-3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
 
-                        <article class="how-travel__item">
-                            <img
-                                src="./assets/imgs/how-travel/img-2.svg"
-                                alt=""
-                                class="how-travel__icon"
-                            />
-                            <h2 class="how-travel__title">Destinations</h2>
-                            <p class="how-travel__desc desc line-clamp line-3">
-                                Explore destinations around the world from 110
-                                countries. We are providing the best travel
-                                guide services.
-                            </p>
-                        </article>
+    <!-- Main -->
+    <main>
+      <!-- How travel -->
+      <section class="how-travel">
+        <div class="container">
+          <h2 id="about" class="how-travel__heading heading">
+            How we can help you to travel?
+          </h2>
+          <div class="how-travel__list">
+            <article class="how-travel__item">
+              <img
+                src="./assets/imgs/how-travel/img-1.svg"
+                alt=""
+                class="how-travel__icon"
+              />
+              <h2 class="how-travel__title">Destinations</h2>
+              <p class="how-travel__desc desc line-clamp line-3">
+                Explore destinations around the world from 110 countries. We are
+                providing the best travel guide services.
+              </p>
+            </article>
 
-                        <article class="how-travel__item">
-                            <img
-                                src="./assets/imgs/how-travel/img-3.svg"
-                                alt=""
-                                class="how-travel__icon"
-                            />
-                            <h2 class="how-travel__title">Destinations</h2>
-                            <p class="how-travel__desc desc line-clamp line-3">
-                                Explore destinations around the world from 110
-                                countries. We are providing the best travel
-                                guide services.
-                            </p>
-                        </article>
-                    </div>
+            <article class="how-travel__item">
+              <img
+                src="./assets/imgs/how-travel/img-2.svg"
+                alt=""
+                class="how-travel__icon"
+              />
+              <h2 class="how-travel__title">Destinations</h2>
+              <p class="how-travel__desc desc line-clamp line-3">
+                Explore destinations around the world from 110 countries. We are
+                providing the best travel guide services.
+              </p>
+            </article>
+
+            <article class="how-travel__item">
+              <img
+                src="./assets/imgs/how-travel/img-3.svg"
+                alt=""
+                class="how-travel__icon"
+              />
+              <h2 class="how-travel__title">Destinations</h2>
+              <p class="how-travel__desc desc line-clamp line-3">
+                Explore destinations around the world from 110 countries. We are
+                providing the best travel guide services.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Popular tours -->
+      <section id="blog" class="popular-tours">
+        <div class="container">
+          <h2 class="popular-tours__heading heading">Popular tours</h2>
+          <p class="popular-tours__desc desc">
+            Create a fully customized day-by-day itinerary for free. Imagine
+            checking one place for your travel.
+          </p>
+          <div class="tour-list">
+            <!-- Tour item -->
+            <article class="tour-item">
+              <a class="tour-item__wrap-img">
+                <img
+                  src="https://images.unsplash.com/photo-1512757776214-26d36777b513?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D"
+                  alt=""
+                  class="tour-item__img"
+                />
+              </a>
+              <span class="tour-item__address"> Lago Di Braies, Italy </span>
+              <h3 class="tour-item__name">The gorgeous lake of Italy</h3>
+              <div class="tour-item__row">
+                <div>
+                  <img
+                    src="./assets/icons/star.svg"
+                    alt=""
+                    class="tour-item__star"
+                  />
+                  <span class="tour-item__score">4.5</span>
                 </div>
-            </section>
+                <span class="tour-item__review">(3.9K Reviews)</span>
+              </div>
+            </article>
 
-            <!-- Popular tours -->
-            <section class="popular-tours">
-                <div class="container">
-                    <h2 class="popular-tours__heading heading">
-                        Popular tours
-                    </h2>
-                    <p class="popular-tours__desc desc">
-                        Create a fully customized day-by-day itinerary for free.
-                        Imagine checking one place for your travel.
-                    </p>
-                    <div class="tour-list">
-                        <!-- Tour item -->
-                        <article class="tour-item">
-                            <a class="tour-item__wrap-img">
-                                <img
-                                    src="https://images.unsplash.com/photo-1512757776214-26d36777b513?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D"
-                                    alt=""
-                                    class="tour-item__img"
-                                />
-                            </a>
-                            <span class="tour-item__address">
-                                Lago Di Braies, Italy
-                            </span>
-                            <h3 class="tour-item__name">
-                                The gorgeous lake of Italy
-                            </h3>
-                            <div class="tour-item__row">
-                                <div>
-                                    <img
-                                        src="./assets/icons/star.svg"
-                                        alt=""
-                                        class="tour-item__star"
-                                    />
-                                    <span class="tour-item__score">4.5</span>
-                                </div>
-                                <span class="tour-item__review"
-                                    >(3.9K Reviews)</span
-                                >
-                            </div>
-                        </article>
-
-                        <!-- Tour item -->
-                        <article class="tour-item">
-                            <a class="tour-item__wrap-img">
-                                <img
-                                    src="https://plus.unsplash.com/premium_photo-1675484743423-57da4e8011c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D"
-                                    alt=""
-                                    class="tour-item__img"
-                                />
-                            </a>
-                            <span class="tour-item__address">
-                                Tibidabo, Barcelona, Spain
-                            </span>
-                            <h3 class="tour-item__name">
-                                The tallest hill in Barcelona
-                            </h3>
-                            <div class="tour-item__row">
-                                <div>
-                                    <img
-                                        src="./assets/icons/star.svg"
-                                        alt=""
-                                        class="tour-item__star"
-                                    />
-                                    <span class="tour-item__score">4.8</span>
-                                </div>
-
-                                <span class="tour-item__review">
-                                    (5.6K Reviews)
-                                </span>
-                            </div>
-                        </article>
-
-                        <!-- Tour item -->
-                        <article class="tour-item">
-                            <a class="tour-item__wrap-img">
-                                <img
-                                    src="https://plus.unsplash.com/premium_photo-1664361480872-6416aab14696?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dHJhdmVsfGVufDB8fDB8fHww"
-                                    alt=""
-                                    class="tour-item__img"
-                                />
-                            </a>
-                            <span class="tour-item__address"
-                                >Cocoa Beach, Florida</span
-                            >
-                            <h3 class="tour-item__name">
-                                The beauty of Cocoa Beach
-                            </h3>
-                            <div class="tour-item__row">
-                                <div>
-                                    <img
-                                        src="./assets/icons/star.svg"
-                                        alt=""
-                                        class="tour-item__star"
-                                    />
-                                    <span class="tour-item__score">4.9</span>
-                                </div>
-                                <span class="tour-item__review"
-                                    >(2.8K Reviews)</span
-                                >
-                            </div>
-                        </article>
-                    </div>
-                    <button class="btn popular-tours__btn">
-                        View All Trips
-                    </button>
+            <!-- Tour item -->
+            <article class="tour-item">
+              <a class="tour-item__wrap-img">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1675484743423-57da4e8011c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D"
+                  alt=""
+                  class="tour-item__img"
+                />
+              </a>
+              <span class="tour-item__address">
+                Tibidabo, Barcelona, Spain
+              </span>
+              <h3 class="tour-item__name">The tallest hill in Barcelona</h3>
+              <div class="tour-item__row">
+                <div>
+                  <img
+                    src="./assets/icons/star.svg"
+                    alt=""
+                    class="tour-item__star"
+                  />
+                  <span class="tour-item__score">4.8</span>
                 </div>
-            </section>
 
-            <!-- See more -->
-            <section class="see-more">
-                <div class="see-more__inner">
-                    <h2 class="see-more__heading">
-                        Not just your regular travel agency we are much more
-                    </h2>
-                    <div class="see-more__list">
-                        <div class="see-more__item">
-                            <span class="see-more__num">20+</span>
-                            <span class="see-more__text">Elite Airlines</span>
-                        </div>
-                        <div class="see-more__item">
-                            <span class="see-more__num">1M+</span>
-                            <span class="see-more__text">
-                                Satisfied Travelers
-                            </span>
-                        </div>
-                        <div class="see-more__item">
-                            <span class="see-more__num">50+</span>
-                            <span class="see-more__text">Awards Win</span>
-                        </div>
-                        <div class="see-more__item">
-                            <span class="see-more__num">12+</span>
-                            <span class="see-more__text">
-                                Years of Experience
-                            </span>
-                        </div>
-                    </div>
+                <span class="tour-item__review"> (5.6K Reviews) </span>
+              </div>
+            </article>
+
+            <!-- Tour item -->
+            <article class="tour-item">
+              <a class="tour-item__wrap-img">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1664361480872-6416aab14696?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dHJhdmVsfGVufDB8fDB8fHww"
+                  alt=""
+                  class="tour-item__img"
+                />
+              </a>
+              <span class="tour-item__address">Cocoa Beach, Florida</span>
+              <h3 class="tour-item__name">The beauty of Cocoa Beach</h3>
+              <div class="tour-item__row">
+                <div>
+                  <img
+                    src="./assets/icons/star.svg"
+                    alt=""
+                    class="tour-item__star"
+                  />
+                  <span class="tour-item__score">4.9</span>
                 </div>
-            </section>
+                <span class="tour-item__review">(2.8K Reviews)</span>
+              </div>
+            </article>
+          </div>
+          <button class="btn popular-tours__btn">View All Trips</button>
+        </div>
+      </section>
 
-            <!-- Why travel -->
-            <section class="why-travel">
-                <div class="container">
-                    <div class="why-travel__inner">
-                        <figure class="why-travel__img-wrap">
-                            <img
-                                src="./assets/imgs/why-travel/img-1.jpg"
-                                alt=""
-                                class="why-travel__img"
-                            />
-                        </figure>
-                        <div class="why-travel__content">
-                            <h2 class="why-travel__heading">
-                                Why travel with us around the world?
-                            </h2>
-                            <p class="why-travel__desc desc">
-                                We’ve been trusted by customers around the world
-                                since 2005 to provide service they can rely on;
-                                that makes travel dreams come true in the most
-                                value-added way possible.
-                            </p>
-                            <ul class="why-travel__list">
-                                <li class="why-travel__item">
-                                    Philosophy & values
-                                </li>
-                                <li class="why-travel__item">
-                                    Unique itinerarie
-                                </li>
-                                <li class="why-travel__item">
-                                    We are for good
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+      <!-- See more -->
+      <section class="see-more">
+        <div class="see-more__inner">
+          <h2 class="see-more__heading">
+            Not just your regular travel agency we are much more
+          </h2>
+          <div class="see-more__list">
+            <div class="see-more__item">
+              <span class="see-more__num">20+</span>
+              <span class="see-more__text">Elite Airlines</span>
+            </div>
+            <div class="see-more__item">
+              <span class="see-more__num">1M+</span>
+              <span class="see-more__text"> Satisfied Travelers </span>
+            </div>
+            <div class="see-more__item">
+              <span class="see-more__num">50+</span>
+              <span class="see-more__text">Awards Win</span>
+            </div>
+            <div class="see-more__item">
+              <span class="see-more__num">12+</span>
+              <span class="see-more__text"> Years of Experience </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why travel -->
+      <section class="why-travel">
+        <div class="container">
+          <div class="why-travel__inner">
+            <figure class="why-travel__img-wrap">
+              <img
+                src="./assets/imgs/why-travel/img-1.jpg"
+                alt=""
+                class="why-travel__img"
+              />
+            </figure>
+            <div class="why-travel__content">
+              <h2 class="why-travel__heading">
+                Why travel with us around the world?
+              </h2>
+              <p class="why-travel__desc desc">
+                We’ve been trusted by customers around the world since 2005 to
+                provide service they can rely on; that makes travel dreams come
+                true in the most value-added way possible.
+              </p>
+              <ul class="why-travel__list">
+                <li class="why-travel__item">Philosophy & values</li>
+                <li class="why-travel__item">Unique itinerarie</li>
+                <li class="why-travel__item">We are for good</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Destination -->
+      <section class="destination">
+        <div class="container">
+          <!-- Destination top  -->
+          <div class="destination__top">
+            <h2 class="destination__heading heading">
+              Discover your next destination
+            </h2>
+            <div class="destination__row">
+              <button class="destination__arrow">
+                <img src="./assets/icons/arrow.svg" alt="" />
+              </button>
+              <button class="destination__arrow">
+                <img src="./assets/icons/arrow.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- Destination list  -->
+          <div class="destination__list">
+            <!-- Item 1 -->
+            <article class="destination-item">
+              <div class="destination-item__img-wrap">
+                <img
+                  src="./assets/imgs/destination/img-1.jpg"
+                  alt=""
+                  class="destination-item__img"
+                />
+              </div>
+              <div class="destination-item__desc">
+                <p class="destination-item__city">City</p>
+                <h3 class="destination-item__name">Bali, Indonesia</h3>
+                <div class="destination-item__row">
+                  <img
+                    src="./assets/icons/star.svg"
+                    alt=""
+                    class="destination-item__star"
+                  />
+                  <p class="destination-item__rating">5.0 Ratings</p>
                 </div>
-            </section>
+              </div>
+            </article>
 
-            <!-- Destination -->
-            <section class="destination">
-                <div class="container">
-                    <!-- Destination top  -->
-                    <div class="destination__top">
-                        <h2 class="destination__heading heading">
-                            Discover your next destination
-                        </h2>
-                        <div class="destination__row">
-                            <button class="destination__arrow">
-                                <img src="./assets/icons/arrow.svg" alt="" />
-                            </button>
-                            <button class="destination__arrow">
-                                <img src="./assets/icons/arrow.svg" alt="" />
-                            </button>
-                        </div>
-                    </div>
-                    <!-- Destination list  -->
-                    <div class="destination__list">
-                        <!-- Item 1 -->
-                        <article class="destination-item">
-                            <div class="destination-item__img-wrap">
-                                <img
-                                    src="./assets/imgs/destination/img-1.jpg"
-                                    alt=""
-                                    class="destination-item__img"
-                                />
-                            </div>
-                            <div class="destination-item__desc">
-                                <p class="destination-item__city">City</p>
-                                <h3 class="destination-item__name">
-                                    Bali, Indonesia
-                                </h3>
-                                <div class="destination-item__row">
-                                    <img
-                                        src="./assets/icons/star.svg"
-                                        alt=""
-                                        class="destination-item__star"
-                                    />
-                                    <p class="destination-item__rating">
-                                        5.0 Ratings
-                                    </p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <!-- Item 2 -->
-                        <article class="destination-item">
-                            <div class="destination-item__img-wrap">
-                                <img
-                                    src="./assets/imgs/destination/img-2.jpg"
-                                    alt=""
-                                    class="destination-item__img"
-                                />
-                            </div>
-                            <div class="destination-item__desc">
-                                <p class="destination-item__city">City</p>
-                                <h3 class="destination-item__name">
-                                    London, UK
-                                </h3>
-                                <div class="destination-item__row">
-                                    <img
-                                        src="./assets/icons/star.svg"
-                                        alt=""
-                                        class="destination-item__star"
-                                    />
-                                    <p class="destination-item__rating">
-                                        4.8 Ratings
-                                    </p>
-                                </div>
-                            </div>
-                        </article>
-
-                        <!-- Item 3 -->
-                        <article class="destination-item">
-                            <div class="destination-item__img-wrap">
-                                <img
-                                    src="./assets/imgs/destination/img-3.jpg"
-                                    alt=""
-                                    class="destination-item__img"
-                                />
-                            </div>
-                            <div class="destination-item__desc">
-                                <p class="destination-item__city">City</p>
-                                <h3 class="destination-item__name">
-                                    New Delhi, India
-                                </h3>
-                                <div class="destination-item__row">
-                                    <img
-                                        src="./assets/icons/star.svg"
-                                        alt=""
-                                        class="destination-item__star"
-                                    />
-                                    <p class="destination-item__rating">
-                                        4.5 Ratings
-                                    </p>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <!-- Destination button -->
-                    <button class="destination__btn btn">
-                        View All Destinations
-                    </button>
+            <!-- Item 2 -->
+            <article class="destination-item">
+              <div class="destination-item__img-wrap">
+                <img
+                  src="./assets/imgs/destination/img-2.jpg"
+                  alt=""
+                  class="destination-item__img"
+                />
+              </div>
+              <div class="destination-item__desc">
+                <p class="destination-item__city">City</p>
+                <h3 class="destination-item__name">London, UK</h3>
+                <div class="destination-item__row">
+                  <img
+                    src="./assets/icons/star.svg"
+                    alt=""
+                    class="destination-item__star"
+                  />
+                  <p class="destination-item__rating">4.8 Ratings</p>
                 </div>
-            </section>
+              </div>
+            </article>
 
-            <!-- travelers -->
-            <section class="travelers">
-                <div class="container">
-                    <div class="travelers__inner">
-                        <h2 class="travelers__heading heading">
-                            What travelers say
-                        </h2>
-                        <div class="travelers__list">
-                            <!-- Item 1 -->
-                            <div class="travelers-item">
-                                <div class="travelers-item__img-wap">
-                                    <img
-                                        src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                        alt=""
-                                        class="travelers-item__img"
-                                    />
-                                </div>
-                                <p class="travelers-item__text">
-                                    "“So much easier to visualize and plan a
-                                    road trip to my favorite rock climbing
-                                    destinations and explore the area around. It
-                                    was my first time ever doing a solo trip.
-                                </p>
-                                <p class="travelers-item__name">Sarah Taylor</p>
-                                <p class="travelers-item__sub-name">
-                                    Solo Traveler
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="travelers-control">
-                            <div></div>
-                            <div></div>
-                            <div class="travelers-control__action"></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <img
-                            src="./assets/imgs/travelers/img-2.jpg"
-                            alt=""
-                            class="travelers__decor"
-                        />
-                        <img
-                            src="./assets/imgs/travelers/img-3.jpg"
-                            alt=""
-                            class="travelers__decor"
-                        />
-                        <img
-                            src="./assets/imgs/travelers/img-4.jpg"
-                            alt=""
-                            class="travelers__decor"
-                        />
-                        <img
-                            src="./assets/imgs/travelers/img-5.jpg"
-                            alt=""
-                            class="travelers__decor"
-                        />
-                        <img
-                            src="./assets/imgs/travelers/img-6.jpg"
-                            alt=""
-                            class="travelers__decor"
-                        />
-                        <img
-                            src="./assets/imgs/travelers/img-7.jpg"
-                            alt=""
-                            class="travelers__decor"
-                        />
-                        <img
-                            src="./assets/imgs/travelers/img-8.jpg"
-                            alt=""
-                            class="travelers__decor"
-                        />
-                    </div>
+            <!-- Item 3 -->
+            <article class="destination-item">
+              <div class="destination-item__img-wrap">
+                <img
+                  src="./assets/imgs/destination/img-3.jpg"
+                  alt=""
+                  class="destination-item__img"
+                />
+              </div>
+              <div class="destination-item__desc">
+                <p class="destination-item__city">City</p>
+                <h3 class="destination-item__name">New Delhi, India</h3>
+                <div class="destination-item__row">
+                  <img
+                    src="./assets/icons/star.svg"
+                    alt=""
+                    class="destination-item__star"
+                  />
+                  <p class="destination-item__rating">4.5 Ratings</p>
                 </div>
-            </section>
+              </div>
+            </article>
+          </div>
+          <!-- Destination button -->
+          <button class="destination__btn btn">View All Destinations</button>
+        </div>
+      </section>
 
-            <!-- Diary -->
-            <section class="diary">
-                <div class="container">
-                    <div class="diary__top">
-                        <h2 class="diary__heading heading">
-                            Latest travel diary
-                        </h2>
-                        <button class="diary__btn btn">Read All Blog</button>
-                    </div>
-                    <div class="diary__content">
-                        <div class="diary__left">
-                            <div class="diary__info-wrap">
-                                <img
-                                    src="./assets/imgs/diary/img-1.jpg"
-                                    alt=""
-                                    class="diary__info"
-                                />
-                            </div>
-                            <h3 class="diary__title">
-                                8 Amazing Places to Celebrate New Year 2023
-                            </h3>
-                            <p class="diary__desc">
-                                Whether it’s champagne to ring in the New Year,
-                                a countdown party, or an intimate dinner,
-                                everyone plans something special. Whether it’s
-                                champagne to ring in the New...
-                            </p>
-                            <a href="#!" class="diary__link">Learn More</a>
-                        </div>
-                        <div class="diary__right">
-                            <!-- Item 1 -->
-                            <article class="diary-item">
-                                <a href="#!" class="diary-item__wrap-img">
-                                    <img
-                                        src="./assets/imgs/diary/img-2.jpg"
-                                        alt=""
-                                        class="diary-item__img"
-                                    />
-                                </a>
-                                <div class="diary-item__content">
-                                    <h3 class="diary-item__title">
-                                        8 Amazing Places to Celebrate New Year
-                                        2023
-                                    </h3>
-                                    <div class="diary-item__desc">
-                                        Whether it’s champagne to ring in the
-                                        New Year, a countdown party, or an
-                                        intimate dinner, everyone plans
-                                        something special...
-                                    </div>
-                                    <a href="#!" class="diary-item__link"
-                                        >Learn More</a
-                                    >
-                                </div>
-                            </article>
-
-                            <!-- Item 2 -->
-                            <article class="diary-item">
-                                <a href="#!" class="diary-item__wrap-img">
-                                    <img
-                                        src="./assets/imgs/diary/img-3.jpg"
-                                        alt=""
-                                        class="diary-item__img"
-                                    />
-                                </a>
-                                <div class="diary-item__content">
-                                    <h3 class="diary-item__title">
-                                        8 Amazing Places to Celebrate New Year
-                                        2023
-                                    </h3>
-                                    <div class="diary-item__desc">
-                                        Whether it’s champagne to ring in the
-                                        New Year, a countdown party, or an
-                                        intimate dinner, everyone plans
-                                        something special...
-                                    </div>
-                                    <a href="#!" class="diary-item__link"
-                                        >Learn More</a
-                                    >
-                                </div>
-                            </article>
-
-                            <!-- Item 3 -->
-                            <article class="diary-item">
-                                <a href="#!" class="diary-item__wrap-img">
-                                    <img
-                                        src="./assets/imgs/diary/img-4.jpg"
-                                        alt=""
-                                        class="diary-item__img"
-                                    />
-                                </a>
-                                <div class="diary-item__content">
-                                    <h3 class="diary-item__title">
-                                        8 Amazing Places to Celebrate New Year
-                                        2023
-                                    </h3>
-                                    <div class="diary-item__desc">
-                                        Whether it’s champagne to ring in the
-                                        New Year, a countdown party, or an
-                                        intimate dinner, everyone plans
-                                        something special...
-                                    </div>
-                                    <a href="#!" class="diary-item__link"
-                                        >Learn More</a
-                                    >
-                                </div>
-                            </article>
-                        </div>
-                    </div>
+      <!-- travelers -->
+      <section class="travelers">
+        <div class="container">
+          <div class="travelers__inner">
+            <h2 class="travelers__heading heading">What travelers say</h2>
+            <div class="travelers__list">
+              <!-- Item 1 -->
+              <div class="travelers-item">
+                <div class="travelers-item__img-wap">
+                  <img
+                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                    class="travelers-item__img"
+                  />
                 </div>
-            </section>
-
-            <!-- Share -->
-            <section class="share">
-                <div class="container">
-                    <h2 class="share__heading heading">Share the Love</h2>
-                    <div class="share__list">
-                        <img src="./assets/imgs/share/img-1.jpg" alt="" />
-                        <img src="./assets/imgs/share/img-2.jpg" alt="" />
-                        <img src="./assets/imgs/share/img-3.jpg" alt="" />
-                        <img src="./assets/imgs/share/img-4.jpg" alt="" />
-                        <img src="./assets/imgs/share/img-5.jpg" alt="" />
-                    </div>
-                </div>
-            </section>
-
-            <!-- Matter -->
-            <section class="matter">
-                <div class="container">
-                    <div class="matter__inner">
-                        <div class="matter__img-wrap">
-                            <img
-                                src="./assets/imgs/matter/img-1.jpg"
-                                alt=""
-                                class="matter__img"
-                            />
-                        </div>
-                        <div class="matter__content">
-                            <h2 class="matter__heading heading">
-                                Travel matter
-                            </h2>
-                            <p class="matter__desc">
-                                We believe sustainable tourism matters. MAKE
-                                TRAVEL MATTER® is our commitment to preserving
-                                the planet.
-                            </p>
-                        </div>
-                        <button class="matter__btn btn">
-                            Find Destination
-                        </button>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="container">
-                <div class="footer__row">
-                    <!-- Col 1 -->
-                    <div class="footer__col">
-                        <h3 class="footer__heading">Booking</h3>
-                        <ul class="footer__list">
-                            <li>
-                                <a href="#!" class="footer__link">
-                                    My Booking
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__link">
-                                    Submit Trip Feedback
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__link">
-                                    Safe Travels Hub
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__link">
-                                    Travel Alerts
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__link">
-                                    Vaccinations & Testing
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__link">
-                                    Flexible Booking
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Col 2 -->
-                    <div class="footer__col">
-                        <h3 class="footer__heading">Company</h3>
-                        <ul class="footer__list">
-                            <li>
-                                <a href="#!" class="footer__link"> About us </a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__link">
-                                    News & Blog
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__link">
-                                    Press Center
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__link">Investors</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__link">Suppliers</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__link">
-                                    Terms & Conditions
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__link">
-                                    Privacy Policy
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Col 3 -->
-                    <div class="footer__col">
-                        <h3 class="footer__heading">Contact</h3>
-                        <ul class="footer__list">
-                            <li>
-                                <a href="#!" class="footer__link">
-                                    Get In Touch
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__link">
-                                    Live Chat
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__link">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__link">
-                                    Testimonials
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Col 4 -->
-                    <div class="footer__col">
-                        <h3 class="footer__heading">
-                            Subscribe our newsletter
-                        </h3>
-                        <div class="footer__form-group">
-                            <input
-                                class="footer__input"
-                                type="text"
-                                placeholder="Enter your email"
-                            />
-                            <button class="footer__btn btn">Subscribe</button>
-                        </div>
-                        <h3 class="footer__heading footer__heading-last">
-                            Follow us
-                        </h3>
-                        <div class="footer__social-list">
-                            <div class="footer__social-item">
-                                <img src="./assets/icons/facebook.svg" alt="" />
-                            </div>
-                            <div class="footer__social-item">
-                                <img src="./assets/icons/linked.svg" alt="" />
-                            </div>
-                            <div class="footer__social-item">
-                                <img src="./assets/icons/twitter.svg" alt="" />
-                            </div>
-                            <div class="footer__social-item">
-                                <img
-                                    src="./assets/icons/instargram.svg"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                        <label for="#region" class="footer__region"
-                            >Change Region</label
-                        >
-                        <div class="footer__change-region">
-                            <p class="footer__change-region-name">Global</p>
-                            <img
-                                src="./assets/icons/arrow-down-solid.svg"
-                                alt=""
-                                class="footer__change-region-img"
-                            />
-                        </div>
-                    </div>
-                </div>
-                <p class="footer__copyright">
-                    Copyright 2023 UIHUT All Rights Reserved
+                <p class="travelers-item__text">
+                  "“So much easier to visualize and plan a road trip to my
+                  favorite rock climbing destinations and explore the area
+                  around. It was my first time ever doing a solo trip.
                 </p>
+                <p class="travelers-item__name">Sarah Taylor</p>
+                <p class="travelers-item__sub-name">Solo Traveler</p>
+              </div>
             </div>
-        </footer>
-    </body>
+
+            <div class="travelers-control">
+              <div></div>
+              <div></div>
+              <div class="travelers-control__action"></div>
+              <div></div>
+              <div></div>
+            </div>
+            <img
+              src="./assets/imgs/travelers/img-2.jpg"
+              alt=""
+              class="travelers__decor"
+            />
+            <img
+              src="./assets/imgs/travelers/img-3.jpg"
+              alt=""
+              class="travelers__decor"
+            />
+            <img
+              src="./assets/imgs/travelers/img-4.jpg"
+              alt=""
+              class="travelers__decor"
+            />
+            <img
+              src="./assets/imgs/travelers/img-5.jpg"
+              alt=""
+              class="travelers__decor"
+            />
+            <img
+              src="./assets/imgs/travelers/img-6.jpg"
+              alt=""
+              class="travelers__decor"
+            />
+            <img
+              src="./assets/imgs/travelers/img-7.jpg"
+              alt=""
+              class="travelers__decor"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Diary -->
+      <section class="diary">
+        <div class="container">
+          <div class="diary__top">
+            <h2 class="diary__heading heading">Latest travel diary</h2>
+            <button class="diary__btn btn">Read All Blog</button>
+          </div>
+          <div class="diary__content">
+            <div class="diary__left">
+              <div class="diary__info-wrap">
+                <img
+                  src="./assets/imgs/diary/img-1.jpg"
+                  alt=""
+                  class="diary__info"
+                />
+              </div>
+              <h3 class="diary__title">
+                8 Amazing Places to Celebrate New Year 2023
+              </h3>
+              <p class="diary__desc">
+                Whether it’s champagne to ring in the New Year, a countdown
+                party, or an intimate dinner, everyone plans something special.
+                Whether it’s champagne to ring in the New...
+              </p>
+              <a href="#!" class="diary__link">Learn More</a>
+            </div>
+            <div class="diary__right">
+              <!-- Item 1 -->
+              <article class="diary-item">
+                <a href="#!" class="diary-item__wrap-img">
+                  <img
+                    src="./assets/imgs/diary/img-2.jpg"
+                    alt=""
+                    class="diary-item__img"
+                  />
+                </a>
+                <div class="diary-item__content">
+                  <h3 class="diary-item__title">
+                    8 Amazing Places to Celebrate New Year 2023
+                  </h3>
+                  <div class="diary-item__desc">
+                    Whether it’s champagne to ring in the New Year, a countdown
+                    party, or an intimate dinner, everyone plans something
+                    special...
+                  </div>
+                  <a href="#!" class="diary-item__link">Learn More</a>
+                </div>
+              </article>
+
+              <!-- Item 2 -->
+              <article class="diary-item">
+                <a href="#!" class="diary-item__wrap-img">
+                  <img
+                    src="./assets/imgs/diary/img-3.jpg"
+                    alt=""
+                    class="diary-item__img"
+                  />
+                </a>
+                <div class="diary-item__content">
+                  <h3 class="diary-item__title">
+                    8 Amazing Places to Celebrate New Year 2023
+                  </h3>
+                  <div class="diary-item__desc">
+                    Whether it’s champagne to ring in the New Year, a countdown
+                    party, or an intimate dinner, everyone plans something
+                    special...
+                  </div>
+                  <a href="#!" class="diary-item__link">Learn More</a>
+                </div>
+              </article>
+
+              <!-- Item 3 -->
+              <article class="diary-item">
+                <a href="#!" class="diary-item__wrap-img">
+                  <img
+                    src="./assets/imgs/diary/img-4.jpg"
+                    alt=""
+                    class="diary-item__img"
+                  />
+                </a>
+                <div class="diary-item__content">
+                  <h3 class="diary-item__title">
+                    8 Amazing Places to Celebrate New Year 2023
+                  </h3>
+                  <div class="diary-item__desc">
+                    Whether it’s champagne to ring in the New Year, a countdown
+                    party, or an intimate dinner, everyone plans something
+                    special...
+                  </div>
+                  <a href="#!" class="diary-item__link">Learn More</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Share -->
+      <section id="page" class="share">
+        <div class="container">
+          <h2 class="share__heading heading">Share the Love</h2>
+          <div class="share__list">
+            <img src="./assets/imgs/share/img-1.jpg" alt="" />
+            <img src="./assets/imgs/share/img-2.jpg" alt="" />
+            <img src="./assets/imgs/share/img-3.jpg" alt="" />
+            <img src="./assets/imgs/share/img-4.jpg" alt="" />
+            <img src="./assets/imgs/share/img-5.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Matter -->
+      <section class="matter">
+        <div class="container">
+          <div class="matter__inner">
+            <div class="matter__img-wrap">
+              <img
+                src="./assets/imgs/matter/img-1.jpg"
+                alt=""
+                class="matter__img"
+              />
+            </div>
+            <div class="matter__content">
+              <h2 class="matter__heading heading">Travel matter</h2>
+              <p class="matter__desc">
+                We believe sustainable tourism matters. MAKE TRAVEL MATTER® is
+                our commitment to preserving the planet.
+              </p>
+            </div>
+            <button class="matter__btn btn">Find Destination</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <!-- Col 1 -->
+          <div class="footer__col">
+            <h3 class="footer__heading">Booking</h3>
+            <ul class="footer__list">
+              <li>
+                <a href="#!" class="footer__link"> My Booking </a>
+              </li>
+              <li>
+                <a href="#!" class="footer__link"> Submit Trip Feedback </a>
+              </li>
+              <li>
+                <a href="#!" class="footer__link"> Safe Travels Hub </a>
+              </li>
+              <li>
+                <a href="#!" class="footer__link"> Travel Alerts </a>
+              </li>
+              <li>
+                <a href="#!" class="footer__link"> Vaccinations & Testing </a>
+              </li>
+              <li>
+                <a href="#!" class="footer__link"> Flexible Booking </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Col 2 -->
+          <div class="footer__col">
+            <h3 class="footer__heading">Company</h3>
+            <ul class="footer__list">
+              <li>
+                <a href="#!" class="footer__link"> About us </a>
+              </li>
+              <li>
+                <a href="#!" class="footer__link"> News & Blog </a>
+              </li>
+              <li>
+                <a href="#!" class="footer__link"> Press Center </a>
+              </li>
+              <li>
+                <a href="#!" class="footer__link">Investors</a>
+              </li>
+              <li>
+                <a href="#!" class="footer__link">Suppliers</a>
+              </li>
+              <li>
+                <a href="#!" class="footer__link"> Terms & Conditions </a>
+              </li>
+              <li>
+                <a href="#!" class="footer__link"> Privacy Policy </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Col 3 -->
+          <div class="footer__col">
+            <h3 class="footer__heading">Contact</h3>
+            <ul class="footer__list">
+              <li>
+                <a href="#!" class="footer__link"> Get In Touch </a>
+              </li>
+              <li>
+                <a href="#!" class="footer__link"> Live Chat </a>
+              </li>
+              <li>
+                <a href="#!" class="footer__link">FAQ</a>
+              </li>
+              <li>
+                <a href="#!" class="footer__link"> Testimonials </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Col 4 -->
+          <div class="footer__col">
+            <h3 class="footer__heading">Subscribe our newsletter</h3>
+            <div class="footer__form-group">
+              <input
+                class="footer__input"
+                type="text"
+                placeholder="Enter your email"
+              />
+              <button class="footer__btn btn">Subscribe</button>
+            </div>
+            <h3 class="footer__heading footer__heading-last">Follow us</h3>
+            <div class="footer__social-list">
+              <div class="footer__social-item">
+                <img src="./assets/icons/facebook.svg" alt="" />
+              </div>
+              <div class="footer__social-item">
+                <img src="./assets/icons/linked.svg" alt="" />
+              </div>
+              <div class="footer__social-item">
+                <img src="./assets/icons/twitter.svg" alt="" />
+              </div>
+              <div class="footer__social-item">
+                <img src="./assets/icons/instargram.svg" alt="" />
+              </div>
+            </div>
+            <label for="#region" class="footer__region">Change Region</label>
+            <div class="footer__change-region">
+              <p class="footer__change-region-name">Global</p>
+              <img
+                src="./assets/icons/arrow-down-solid.svg"
+                alt=""
+                class="footer__change-region-img"
+              />
+            </div>
+          </div>
+        </div>
+        <p class="footer__copyright">
+          Copyright 2023 UIHUT All Rights Reserved
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>

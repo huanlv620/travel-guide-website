@@ -142,12 +142,12 @@ table {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth; /*cuộn mượt mà*/
 }
 
 body {
   font-size: 1.6rem;
   font-family: "Manrope", sans-serif;
-  scroll-behavior: smooth; /*cuộn mượt mà*/
   text-rendering: optimizeSpeed;
 }
 
@@ -398,11 +398,12 @@ h6 {
 }
 
 .how-travel {
-  margin-top: 150px;
+  margin-top: 120px;
 }
 .how-travel__heading {
   width: 570px;
   margin: 0 auto;
+  padding-top: 30px;
   text-align: center;
 }
 .how-travel__list {
@@ -983,7 +984,7 @@ div .travelers-control .travelers-control__action {
 }
 
 .footer {
-  margin-top: 100px;
+  padding-top: 100px;
   background: #fff9e5;
 }
 .footer__row {

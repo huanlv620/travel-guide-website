@@ -1,117 +1,117 @@
 .footer {
-    margin-top: 100px;
-    background: #fff9e5;
-    &__row {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 3fr;
-        gap: 102px;
-        padding-bottom: 55px;
-        border-bottom: 1px solid rgba(78, 83, 88, 0.1);
+  padding-top: 100px;
+  background: #fff9e5;
+  &__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+    gap: 102px;
+    padding-bottom: 55px;
+    border-bottom: 1px solid rgba(78, 83, 88, 0.1);
+  }
+
+  &__heading {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 127%;
+    color: #191b1d;
+
+    &-last {
+      margin: 34px 0 24px;
     }
+  }
 
-    &__heading {
-        font-weight: 700;
-        font-size: 2.2rem;
-        line-height: 127%;
-        color: #191b1d;
+  &__list {
+    margin-top: 16px;
+  }
 
-        &-last {
-            margin: 34px 0 24px;
-        }
+  &__link {
+    display: block;
+    padding: 8px 0;
+    font-size: 1.6rem;
+    line-height: 175%;
+    color: #4e5358;
+    white-space: nowrap;
+
+    &:hover {
+      color: #ff5b26;
     }
+  }
 
-    &__list {
-        margin-top: 16px;
+  &__form-group {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+  }
+
+  &__input {
+    width: 285px;
+    height: 60px;
+    padding: 0 16px;
+    border-radius: 30px;
+    border: 1px solid rgb(78 83 88 / 10%);
+    font-size: 1.6rem;
+    color: #4e5358;
+    transition: border 0.4s;
+  }
+
+  &__btn {
+    width: 157px;
+    height: 60px;
+  }
+
+  &__social-list {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__social-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #191b1d;
+    transition: translate, background-color;
+    transition-duration: 0.3s;
+    &:hover {
+      cursor: pointer;
+      background-color: #ff5b26;
+      translate: 0 -3px;
     }
+  }
 
-    &__link {
-        display: block;
-        padding: 8px 0;
-        font-size: 1.6rem;
-        line-height: 175%;
-        color: #4e5358;
-        white-space: nowrap;
+  &__region {
+    display: flex;
+    margin-top: 30px;
+    font-size: 1.6rem;
+    line-height: 175%;
+    color: #4e5358;
+  }
 
-        &:hover {
-            color: #ff5b26;
-        }
+  &__change-region {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    padding-bottom: 4px;
+    width: 270px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(78 83 88 / 10%);
+
+    &-name {
+      font-weight: 600;
+      font-size: 1.8rem;
+      line-height: 167%;
+      color: #191b1d;
     }
+  }
 
-    &__form-group {
-        display: flex;
-        gap: 16px;
-        margin-top: 24px;
-    }
-
-    &__input {
-        width: 285px;
-        height: 60px;
-        padding: 0 16px;
-        border-radius: 30px;
-        border: 1px solid rgb(78 83 88 / 10%);
-        font-size: 1.6rem;
-        color: #4e5358;
-        transition: border 0.4s;
-    }
-
-    &__btn {
-        width: 157px;
-        height: 60px;
-    }
-
-    &__social-list {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-    }
-
-    &__social-item {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        background-color: #191b1d;
-        transition: translate, background-color;
-        transition-duration: 0.3s;
-        &:hover {
-            cursor: pointer;
-            background-color: #ff5b26;
-            translate: 0 -3px;
-        }
-    }
-
-    &__region {
-        display: flex;
-        margin-top: 30px;
-        font-size: 1.6rem;
-        line-height: 175%;
-        color: #4e5358;
-    }
-
-    &__change-region {
-        display: flex;
-        align-items: center;
-        margin-top: 2px;
-        padding-bottom: 4px;
-        width: 270px;
-        justify-content: space-between;
-        border-bottom: 1px solid rgb(78 83 88 / 10%);
-
-        &-name {
-            font-weight: 600;
-            font-size: 1.8rem;
-            line-height: 167%;
-            color: #191b1d;
-        }
-    }
-
-    &__copyright {
-        padding: 30px;
-        font-size: 1.6rem;
-        line-height: 175%;
-        color: #4e5358;
-        text-align: center;
-    }
+  &__copyright {
+    padding: 30px;
+    font-size: 1.6rem;
+    line-height: 175%;
+    color: #4e5358;
+    text-align: center;
+  }
 }
